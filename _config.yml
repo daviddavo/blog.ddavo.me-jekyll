@@ -6,10 +6,13 @@ description: "Blog personal de ddavo en el que se habla de cualquier cosa"
 analytics: UA-61647702-1
 baseurl: "" #important: start with /
 url: "blog.ddavo.me"
+repository: "daviddavo/daviddavo.github.io"
+staticman:
+  branch: "master"
 
 # Build settings
 markdown: kramdown
-permalink: /:categories/:title
+permalink: /:categories/:year-:month-:day-:title
 excerpt_separator: <!--more--> #use this in posts to define how long the excerpt of the post (that is shown on the Blog page) is
 
 colors:  #in hex code if not noted else
@@ -104,3 +107,7 @@ testimonial:
     message: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
     author: Marcel Newman
     position: WEB DESIGNER - BLACKTIE.CO
+
+gems:
+  - jekyll-youtube
+  - jekyll-sitemap

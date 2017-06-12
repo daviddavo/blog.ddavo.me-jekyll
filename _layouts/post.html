@@ -12,6 +12,15 @@ layout: default
             <p><img class="img-responsive" src="{{ "/assets/img/blog/" | prepend: site.baseurl }}{{ page.img }}"></p>
             <a href="{{ page.url | prepend: site.baseurl }}"><h3 class="ctitle">{{ page.title }}</h3></a>
             <p><csmall>{{ page.date | date: "%b %-d, %Y" }}. | By: {{ page.author }}</csmall></p>
+            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <!-- Blog: Post -->
+            <ins class="adsbygoogle"
+                 style="display:inline-block;width:728px;height:90px"
+                 data-ad-client="ca-pub-2982095310228936"
+                 data-ad-slot="8519114208"></ins>
+            <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
               
             {{ content }}
 
@@ -28,4 +37,6 @@ layout: default
         {% include sidebar.html %}
 
     </div><! --/row -->
+    <!--{% include comments.html %}-->
 </div><! --/container -->
+
