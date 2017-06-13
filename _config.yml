@@ -9,6 +9,9 @@ url: "blog.ddavo.me"
 repository: "daviddavo/daviddavo.github.io"
 staticman:
   branch: "master"
+show_drafts: false
+future: false
+unpublished: false
 
 # Build settings
 markdown: kramdown
