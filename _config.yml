@@ -114,3 +114,4 @@ testimonial:
 gems:
   - jekyll-youtube
   - jekyll-sitemap
+  - jekyll-feed
